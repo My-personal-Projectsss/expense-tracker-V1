@@ -6,19 +6,19 @@ function Landing() {
 
       {/* Navbar */}
       <nav className="flex items-center justify-between px-8 md:px-16 py-5 border-b border-gray-100">
-  <div className="flex items-center gap-2">
-    <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm flex-shrink-0">$</div>
-    <span className="text-lg font-bold text-gray-800">TrackIt</span>
-  </div>
-  <div className="flex flex-col sm:flex-row items-end sm:items-center gap-2">
-  <Link to="/signup" className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition">
-    Get Started
-  </Link>
-  <Link to="/login" className="text-sm text-gray-600 font-medium hover:text-gray-800 transition">
-    Log In
-  </Link>
-</div>
-</nav>
+        <div className="flex items-center gap-2">
+          <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm flex-shrink-0">$</div>
+          <span className="text-lg font-bold text-gray-800">TrackIt</span>
+        </div>
+      <div className="flex flex-col sm:flex-row items-end sm:items-center gap-2">
+        <Link to="/signup" className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition">
+          Get Started
+        </Link>
+        <Link to="/login" className="text-sm text-gray-600 font-medium hover:text-gray-800 transition">
+          Log In
+        </Link>
+      </div>
+      </nav>
 
       {/* Hero */}
       <section className="flex flex-col md:flex-row items-center justify-between px-8 md:px-16 py-16 md:py-24 gap-12">
