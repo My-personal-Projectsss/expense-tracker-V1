@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { supabase } from './lib/supabase'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
+import CheckEmail from './pages/CheckEmail'
 import Dashboard from './pages/Dashboard'
 import Transactions from './pages/Transactions'
 import Categories from './pages/Categories'
@@ -34,6 +35,7 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={session ? <Navigate to="/dashboard" /> : <Login />} />
         <Route path="/signup" element={session ? <Navigate to="/dashboard" /> : <Signup />} />
+        <Route path="/check-email" element={<CheckEmail />} />
         <Route path="/dashboard" element={
           <ProtectedRoute>
             <Dashboard />

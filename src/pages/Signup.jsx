@@ -35,7 +35,7 @@ function Signup() {
        .eq('id', data.user.id)
     }
 
-    navigate('/dashboard')
+    navigate('/check-email')
     setLoading(false)
   }
 
