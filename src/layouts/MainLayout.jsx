@@ -51,7 +51,7 @@ function MainLayout({ children }) {
         <div className="p-6">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">$</div>
-            <span className="text-lg font-bold text-gray-800">ExpenseTracker</span>
+            <span className="text-lg font-bold text-gray-800">TrackIt</span>
           </div>
         </div>
 
@@ -104,7 +104,7 @@ function MainLayout({ children }) {
         <div className="md:hidden flex items-center justify-between px-4 py-3 bg-white shadow-sm">
           <div className="flex items-center gap-2">
             <div className="w-7 h-7 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-xs">$</div>
-            <span className="text-base font-bold text-gray-800">ExpenseTracker</span>
+            <span className="text-base font-bold text-gray-800">TrackIt</span>
           </div>
           <button
             onClick={() => setSidebarOpen(true)}
